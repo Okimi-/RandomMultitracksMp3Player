@@ -8,23 +8,25 @@ import	pygame
 # -----------------------
 class AudioTrack:
 
+
 	# Constructor
 	# -----------
 	# Initialise a new playing track
-	def __init__( self, oSound, fVolume, bUpVolume ):
+	def __init__( self, oSound, eVolume, bUpVolume ):
 
 		# Attributes
 		# ----------
 
-		if bUpVolume:
+		if bUpVolume :
 			self.bVolumeIsUp = True
-			fVolume = 1.0
-		else:
+			eVolume = 100
+		else :
 			self.bVolumeIsUp = False
 
 		# Play once the sound object
 		self.oChannel = oSound.play(0)
-		self.oChannel.set_volume( fVolume )
+		self.oChannel.set_volume( float(eVolume)/100 )
+
 
 
 	# Methodes
@@ -39,9 +41,3 @@ class AudioTrack:
 			return False
 
 
-	def bIsVolumeIsUp( self ):
-
-		if self.bVolumeIsUp():
-			return True
-		else:
-			return False
