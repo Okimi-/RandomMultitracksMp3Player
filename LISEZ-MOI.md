@@ -30,7 +30,7 @@ Nombre de piste audio jouées simultanément. Valeur de 1 à 20.
 Quantité de bruit de fond. Agit sur la fréquence de création de nouvelles pistes audios. Valeur de 1 à 100%. 0 pour aucun.
 
 **iHubbubVolume**  
-Volume sonore du bruit de fond.
+Volume sonore du bruit de fond. Valeur de 1 à 100%
 
 **iPumpUpQuantity**  
 Agit sur la fréquence d'apparition de piste audio où le volume au maximum. Valeur de 1 à 100%. 0 pour aucun.
