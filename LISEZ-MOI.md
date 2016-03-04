@@ -27,12 +27,12 @@ Vous pouvez intervenir sur le paramétrage du player en modifiant les valeurs du
 Nombre de piste audio jouées simultanément. Valeur de 1 à 20.
 
 **iHubbubQuantity**  
-Quantité de bruit de fond. Agit sur la fréquence de création de nouvelles pistes audios. Valeur de 1 à 100%.
+Quantité de bruit de fond. Agit sur la fréquence de création de nouvelles pistes audios. Valeur de 1 à 100%. 0 pour aucun.
 
 **iHubbubVolume**  
 Volume sonore du bruit de fond.
 
 **iPumpUpQuantity**  
-Agit sur la fréquence d'apparition de piste audio où le volume au maximum. Valeur de 1 à 100%.
+Agit sur la fréquence d'apparition de piste audio où le volume au maximum. Valeur de 1 à 100%. 0 pour aucun.
 
 *Copyright Okimi (Emmanuel Fort), 2016 (contact at okimi dot net)*
